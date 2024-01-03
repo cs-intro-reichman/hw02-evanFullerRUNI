@@ -30,7 +30,7 @@ public class OneOfEachStats {
 			while (g == 0 || b == 0) {
 				if (g > 0 || b > 0) {
 				}
-				if ((int) (generator.nextDouble() * 2) == 1) {
+				if ((generator.nextDouble()) > 0.5) {
 					b++;
 				} else {
 					g++;
